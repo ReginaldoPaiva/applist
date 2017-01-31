@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate {
+class ArticlesViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet weak var myTableView: UITableView!
     
