@@ -6,4 +6,8 @@ target 'AppList' do
   use_frameworks!
 	pod 'Alamofire', '~> 4.3'
 	pod 'SwiftyJSON', '~> 3.1'
+	pod 'ALLoadingView', '~> 1.1'
+	pod 'ParticlesLoadingView', '~> 0.3'
+	pod 'ASProgressHud', '~> 1.0'
+
 end

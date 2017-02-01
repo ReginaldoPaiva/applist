@@ -1,15 +1,24 @@
 PODS:
   - Alamofire (4.3.0)
+  - ALLoadingView (1.1.1)
+  - ASProgressHud (1.0.2)
+  - ParticlesLoadingView (0.3)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.3)
+  - ALLoadingView (~> 1.1)
+  - ASProgressHud (~> 1.0)
+  - ParticlesLoadingView (~> 0.3)
   - SwiftyJSON (~> 3.1)
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  ALLoadingView: 1ad4f21ac3733413e612821d2bb333b65c22440e
+  ASProgressHud: 601bd65ff930669207b5d44abe78f45ea656453f
+  ParticlesLoadingView: 4f5cceec3767284555fd3e20d2f945969d2267ae
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: c2f4d162f8b0535c5f85ab80a37885dbe6505166
+PODFILE CHECKSUM: 5e615c0b4045603d6b0a605427eec9b6a4949938
 
 COCOAPODS: 1.1.1

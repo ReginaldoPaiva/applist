@@ -4,7 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ALLoadingView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ASProgressHud-Resources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ASProgressHud.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParticlesLoadingView-ParticlesLoadingView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParticlesLoadingView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +47,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>27933BE0E945736DA8DFF93886A71CC0</key>
+		<key>02956567883CDD38F2B05CE4AD01D73C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>15F4C754B92D2B99CE6ED4FAA10C983F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>24328740A5C224C9609963F9AC91CAF2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35C149B1BDA5B53C84B89A37BF2F6CCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72BB86D944B5DC210EB717DA5495A4C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA511EC5B0FDBA2D8FC466E0C810DAF1</key>
+		<key>8B8E27A79A0712426D3C843A6B3F6379</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFBC0AFBCD534412177EB1473AEBE491</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tox-RW-OSg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bKx-aA-UY9">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -64,5 +64,35 @@
             </objects>
             <point key="canvasLocation" x="828" y="187.55622188905548"/>
         </scene>
+        <!--Loading View Controller-->
+        <scene sceneID="SoZ-XR-CxN">
+            <objects>
+                <viewController id="bKx-aA-UY9" customClass="LoadingViewController" customModule="AppList" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8vF-SO-Jeh"/>
+                        <viewControllerLayoutGuide type="bottom" id="KtG-2O-IfB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hAc-Ux-d3L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="batman.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3cp-g8-KWa"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3cp-g8-KWa" firstAttribute="top" secondItem="hAc-Ux-d3L" secondAttribute="top" id="H1W-xm-d2I"/>
+                            <constraint firstItem="KtG-2O-IfB" firstAttribute="top" secondItem="3cp-g8-KWa" secondAttribute="bottom" id="PGx-gk-vrg"/>
+                            <constraint firstAttribute="trailing" secondItem="3cp-g8-KWa" secondAttribute="trailing" id="RbV-3z-dlK"/>
+                            <constraint firstItem="3cp-g8-KWa" firstAttribute="leading" secondItem="hAc-Ux-d3L" secondAttribute="leading" id="STE-nh-i8H"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KXi-H5-UP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="226.23688155922042"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="batman.jpg" width="564" height="846"/>
+    </resources>
 </document>

@@ -12,6 +12,9 @@
 		0277D3CD1E4140AA00B07532 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3CC1E4140AA00B07532 /* AccountViewController.swift */; };
 		0277D3CF1E41413700B07532 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3CE1E41413700B07532 /* AccountViewModel.swift */; };
 		0277D3D11E41461200B07532 /* AccountDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3D01E41461200B07532 /* AccountDataProvider.swift */; };
+		0277D3D31E414DB400B07532 /* batman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0277D3D21E414DB400B07532 /* batman.jpg */; };
+		0277D3D51E414DE800B07532 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3D41E414DE800B07532 /* LoadingViewController.swift */; };
+		0277D3D81E4150C400B07532 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3D71E4150C400B07532 /* LoadingView.swift */; };
 		0295D8601E37FFBE00E1968D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295D85F1E37FFBE00E1968D /* AppDelegate.swift */; };
 		0295D8621E37FFBE00E1968D /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295D8611E37FFBE00E1968D /* ArticlesViewController.swift */; };
 		0295D8651E37FFBE00E1968D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0295D8631E37FFBE00E1968D /* Main.storyboard */; };
@@ -48,6 +51,9 @@
 		0277D3CC1E4140AA00B07532 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		0277D3CE1E41413700B07532 /* AccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		0277D3D01E41461200B07532 /* AccountDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDataProvider.swift; sourceTree = "<group>"; };
+		0277D3D21E414DB400B07532 /* batman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batman.jpg; sourceTree = "<group>"; };
+		0277D3D41E414DE800B07532 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		0277D3D71E4150C400B07532 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		0295D85C1E37FFBE00E1968D /* AppList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0295D85F1E37FFBE00E1968D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0295D8611E37FFBE00E1968D /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
@@ -128,8 +134,17 @@
 			children = (
 				0295D8611E37FFBE00E1968D /* ArticlesViewController.swift */,
 				0277D3CC1E4140AA00B07532 /* AccountViewController.swift */,
+				0277D3D41E414DE800B07532 /* LoadingViewController.swift */,
 			);
 			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		0277D3D61E41509900B07532 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0277D3D71E4150C400B07532 /* LoadingView.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		0295D8531E37FFBE00E1968D = {
@@ -157,6 +172,8 @@
 		0295D85E1E37FFBE00E1968D /* AppList */ = {
 			isa = PBXGroup;
 			children = (
+				0277D3D21E414DB400B07532 /* batman.jpg */,
+				0277D3D61E41509900B07532 /* Helpers */,
 				026756371E3AA36E003B1182 /* View Controller */,
 				026756351E3AA2E7003B1182 /* Data Provider */,
 				026756341E3AA2B2003B1182 /* Views Model */,
@@ -315,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0277D3D31E414DB400B07532 /* batman.jpg in Resources */,
 				0295D86A1E37FFBE00E1968D /* LaunchScreen.storyboard in Resources */,
 				0295D8671E37FFBE00E1968D /* Assets.xcassets in Resources */,
 				0295D8651E37FFBE00E1968D /* Main.storyboard in Resources */,
@@ -392,12 +410,14 @@
 			files = (
 				02A1DEDC1E3AAF7400F6DA37 /* Articles.swift in Sources */,
 				02A1DEDF1E3AB77000F6DA37 /* ArticlesViewModel.swift in Sources */,
+				0277D3D81E4150C400B07532 /* LoadingView.swift in Sources */,
 				0277D3CD1E4140AA00B07532 /* AccountViewController.swift in Sources */,
 				02A1DEDD1E3AAF7400F6DA37 /* Account.swift in Sources */,
 				0277D3D11E41461200B07532 /* AccountDataProvider.swift in Sources */,
 				0277D3CF1E41413700B07532 /* AccountViewModel.swift in Sources */,
 				0295D8621E37FFBE00E1968D /* ArticlesViewController.swift in Sources */,
 				0295D8601E37FFBE00E1968D /* AppDelegate.swift in Sources */,
+				0277D3D51E414DE800B07532 /* LoadingViewController.swift in Sources */,
 				0277D3C71E413A4500B07532 /* ArticlesDataProvider.swift in Sources */,
 				0277D3C91E413E3500B07532 /* BaseProtocol.swift in Sources */,
 			);
