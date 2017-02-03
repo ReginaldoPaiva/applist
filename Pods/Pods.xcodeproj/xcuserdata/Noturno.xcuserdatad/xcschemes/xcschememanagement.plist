@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ParticlesLoadingView-ParticlesLoadingView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,12 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>2EED6790034844A633C34ADC7296DF44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>35C149B1BDA5B53C84B89A37BF2F6CCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>72BB86D944B5DC210EB717DA5495A4C0</key>
+		<key>646A8F8A170DB85813F5D104FC1AB4C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DFBC0AFBCD534412177EB1473AEBE491</key>
+		<key>B43918AB915242B851ABEFB5D70BE0AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

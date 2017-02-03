@@ -9,5 +9,5 @@ target 'AppList' do
 	pod 'ALLoadingView', '~> 1.1'
 	pod 'ParticlesLoadingView', '~> 0.3'
 	pod 'ASProgressHud', '~> 1.0'
-
+	pod 'ObjectMapper'
 end

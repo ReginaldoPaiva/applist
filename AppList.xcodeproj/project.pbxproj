@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0261B6351E43DE1400BC6D1F /* ArticlesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261B6341E43DE1400BC6D1F /* ArticlesRouter.swift */; };
+		0261B6391E43F0B200BC6D1F /* ArticlesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261B6381E43F0B200BC6D1F /* ArticlesStore.swift */; };
+		0261B63B1E43F55900BC6D1F /* ArticlesApiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261B63A1E43F55900BC6D1F /* ArticlesApiStore.swift */; };
 		0277D3C71E413A4500B07532 /* ArticlesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3C61E413A4500B07532 /* ArticlesDataProvider.swift */; };
 		0277D3C91E413E3500B07532 /* BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3C81E413E3500B07532 /* BaseProtocol.swift */; };
 		0277D3CD1E4140AA00B07532 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277D3CC1E4140AA00B07532 /* AccountViewController.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0261B6341E43DE1400BC6D1F /* ArticlesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesRouter.swift; sourceTree = "<group>"; };
+		0261B6381E43F0B200BC6D1F /* ArticlesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesStore.swift; sourceTree = "<group>"; };
+		0261B63A1E43F55900BC6D1F /* ArticlesApiStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesApiStore.swift; sourceTree = "<group>"; };
 		0277D3C61E413A4500B07532 /* ArticlesDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesDataProvider.swift; sourceTree = "<group>"; };
 		0277D3C81E413E3500B07532 /* BaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProtocol.swift; sourceTree = "<group>"; };
 		0277D3CC1E4140AA00B07532 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +107,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0261B6301E43DD3800BC6D1F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0261B6311E43DDBE00BC6D1F /* Articles */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		0261B6311E43DDBE00BC6D1F /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				0261B6331E43DDCE00BC6D1F /* Store */,
+				0261B6321E43DDC500BC6D1F /* Routers */,
+			);
+			name = Articles;
+			sourceTree = "<group>";
+		};
+		0261B6321E43DDC500BC6D1F /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				0261B6341E43DE1400BC6D1F /* ArticlesRouter.swift */,
+			);
+			name = Routers;
+			sourceTree = "<group>";
+		};
+		0261B6331E43DDCE00BC6D1F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				0261B6381E43F0B200BC6D1F /* ArticlesStore.swift */,
+				0261B63A1E43F55900BC6D1F /* ArticlesApiStore.swift */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
 		026756331E3AA280003B1182 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,11 +213,12 @@
 			isa = PBXGroup;
 			children = (
 				0277D3D21E414DB400B07532 /* batman.jpg */,
-				0277D3D61E41509900B07532 /* Helpers */,
 				026756371E3AA36E003B1182 /* View Controller */,
+				026756331E3AA280003B1182 /* Models */,
 				026756351E3AA2E7003B1182 /* Data Provider */,
 				026756341E3AA2B2003B1182 /* Views Model */,
-				026756331E3AA280003B1182 /* Models */,
+				0261B6301E43DD3800BC6D1F /* Network */,
+				0277D3D61E41509900B07532 /* Helpers */,
 				0295D85F1E37FFBE00E1968D /* AppDelegate.swift */,
 				0295D8631E37FFBE00E1968D /* Main.storyboard */,
 				0295D8661E37FFBE00E1968D /* Assets.xcassets */,
@@ -410,9 +451,12 @@
 			files = (
 				02A1DEDC1E3AAF7400F6DA37 /* Articles.swift in Sources */,
 				02A1DEDF1E3AB77000F6DA37 /* ArticlesViewModel.swift in Sources */,
+				0261B63B1E43F55900BC6D1F /* ArticlesApiStore.swift in Sources */,
 				0277D3D81E4150C400B07532 /* LoadingView.swift in Sources */,
 				0277D3CD1E4140AA00B07532 /* AccountViewController.swift in Sources */,
 				02A1DEDD1E3AAF7400F6DA37 /* Account.swift in Sources */,
+				0261B6351E43DE1400BC6D1F /* ArticlesRouter.swift in Sources */,
+				0261B6391E43F0B200BC6D1F /* ArticlesStore.swift in Sources */,
 				0277D3D11E41461200B07532 /* AccountDataProvider.swift in Sources */,
 				0277D3CF1E41413700B07532 /* AccountViewModel.swift in Sources */,
 				0295D8621E37FFBE00E1968D /* ArticlesViewController.swift in Sources */,

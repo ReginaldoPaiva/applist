@@ -18,8 +18,14 @@ class AccountDataProvider {
             
         //TO DO implementar o método que vem da camada API
     
-    func requestArticles(){
+    func getAllArticles(){
         
+        ArticlesAPIStore().getAllArticles(userID: "userId") { (account, error) in
+            
+            
+            
+            
+        }
         //TO DO implementar o método que vem da camada API
         
     }
