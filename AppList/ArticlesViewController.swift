@@ -8,8 +8,15 @@
 
 import UIKit
 
-class ArticlesViewController: UIViewController, UITableViewDelegate {
-
+class ArticlesViewController: UIViewController {
+    
+    
+    
+    var dataProvider = ArticlesDataProvider()
+    var viewModel: ArticlesViewModel?
+    
+    
+    
     @IBOutlet weak var myTableView: UITableView!
     
     
@@ -17,9 +24,9 @@ class ArticlesViewController: UIViewController, UITableViewDelegate {
         super.viewDidLoad()
         
         print("Hello World")
-        
-        self.myTableView.layer.cornerRadius = 20
-        
+        self.dataProvider.delegate = self
+        LoadingView.isLoading(view: self.view, show: true)
+        self.dataProvider.getAllArticles()
         
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,3 +39,16 @@ class ArticlesViewController: UIViewController, UITableViewDelegate {
 
 }
 
+extension ArticlesViewController: ArticlesDataProviderProtocol{
+    
+    func success<T>(vm: T) {
+        
+        LoadingView.isLoading(view: self.view, show: false)
+        guard let currentVM = vm as? ArticlesViewModel else {return}
+        self.viewModel = currentVM
+    }
+    
+    func fail(error: NSError) {
+        
+    }
+}

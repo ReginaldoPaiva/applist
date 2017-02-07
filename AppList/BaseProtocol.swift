@@ -10,7 +10,7 @@ import Foundation
 
 protocol BaseProtocol {
 
-    func success()
-    func fail()
+    func success<T>(vm: T)
+    func fail(error: NSError)
 
 }

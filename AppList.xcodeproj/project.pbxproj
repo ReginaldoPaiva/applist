@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021F390C1E492EF000E99094 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F390B1E492EF000E99094 /* API.swift */; };
 		0261B6351E43DE1400BC6D1F /* ArticlesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261B6341E43DE1400BC6D1F /* ArticlesRouter.swift */; };
 		0261B6391E43F0B200BC6D1F /* ArticlesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261B6381E43F0B200BC6D1F /* ArticlesStore.swift */; };
 		0261B63B1E43F55900BC6D1F /* ArticlesApiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261B63A1E43F55900BC6D1F /* ArticlesApiStore.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021F390B1E492EF000E99094 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0261B6341E43DE1400BC6D1F /* ArticlesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesRouter.swift; sourceTree = "<group>"; };
 		0261B6381E43F0B200BC6D1F /* ArticlesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesStore.swift; sourceTree = "<group>"; };
 		0261B63A1E43F55900BC6D1F /* ArticlesApiStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesApiStore.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				0261B6311E43DDBE00BC6D1F /* Articles */,
+				021F390B1E492EF000E99094 /* API.swift */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				0277D3C61E413A4500B07532 /* ArticlesDataProvider.swift */,
 				0277D3D01E41461200B07532 /* AccountDataProvider.swift */,
 				0277D3C81E413E3500B07532 /* BaseProtocol.swift */,
+				026756341E3AA2B2003B1182 /* Views Model */,
 			);
 			name = "Data Provider";
 			sourceTree = "<group>";
@@ -216,7 +220,6 @@
 				026756371E3AA36E003B1182 /* View Controller */,
 				026756331E3AA280003B1182 /* Models */,
 				026756351E3AA2E7003B1182 /* Data Provider */,
-				026756341E3AA2B2003B1182 /* Views Model */,
 				0261B6301E43DD3800BC6D1F /* Network */,
 				0277D3D61E41509900B07532 /* Helpers */,
 				0295D85F1E37FFBE00E1968D /* AppDelegate.swift */,
@@ -463,6 +466,7 @@
 				0295D8601E37FFBE00E1968D /* AppDelegate.swift in Sources */,
 				0277D3D51E414DE800B07532 /* LoadingViewController.swift in Sources */,
 				0277D3C71E413A4500B07532 /* ArticlesDataProvider.swift in Sources */,
+				021F390C1E492EF000E99094 /* API.swift in Sources */,
 				0277D3C91E413E3500B07532 /* BaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

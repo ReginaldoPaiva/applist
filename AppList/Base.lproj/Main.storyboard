@@ -41,7 +41,7 @@
                                         <rect key="frame" x="0.0" y="92" width="343" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wpx-mr-eNr" id="A74-eP-Inj">
-                                            <frame key="frameInset" width="343" height="44"/>
+                                            <frame key="frameInset" width="343" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -62,12 +62,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WC6-dx-p2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828" y="187.55622188905548"/>
+            <point key="canvasLocation" x="970" y="176"/>
         </scene>
-        <!--Loading View Controller-->
+        <!--Articles View Controller-->
         <scene sceneID="SoZ-XR-CxN">
             <objects>
-                <viewController id="bKx-aA-UY9" customClass="LoadingViewController" customModule="AppList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bKx-aA-UY9" customClass="ArticlesViewController" customModule="AppList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8vF-SO-Jeh"/>
                         <viewControllerLayoutGuide type="bottom" id="KtG-2O-IfB"/>
@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KXi-H5-UP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1580" y="226.23688155922042"/>
+            <point key="canvasLocation" x="1860" y="188"/>
         </scene>
     </scenes>
     <resources>

@@ -15,14 +15,12 @@ class LoadingView: NSObject{
     static func showLoading (){
     
         ALLoadingView.manager.blurredBackground = true
-        ALLoadingView.manager.showLoadingView(ofType: .messageWithIndicatorAndCancelButton, windowMode: .fullscreen)
+        ALLoadingView.manager.showLoadingView(ofType: .basic)
     }
     
     static func hideLoading(){
     
-        ALLoadingView.manager.cancelCallback = {
         ALLoadingView.manager.hideLoadingView()
-        }
     }
     
    static func isLoading(view: UIView, show: Bool){
