@@ -15,6 +15,7 @@ extension ArticlesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.viewModel?.setupArticleSelected(indice: indexPath.row)
         
+        
         self.performSegue(withIdentifier: "details", sender: nil)
     }
     

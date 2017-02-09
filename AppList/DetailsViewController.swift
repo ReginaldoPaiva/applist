@@ -12,11 +12,13 @@ class DetailsViewController: UIViewController {
 
     var viewModel: ArticlesViewModel?
     
+    @IBOutlet weak var imageLarge: UIImageView!
     @IBOutlet weak var descriptionTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.descriptionTextView.text = viewModel?.descriptionDetail
+        self.imageLarge.image = viewModel?.imageDetailSelected
         
         // Do any additional setup after loading the view.
     }

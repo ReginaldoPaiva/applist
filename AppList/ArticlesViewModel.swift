@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ArticlesViewModel: NSObject {
     
@@ -31,7 +32,14 @@ class ArticlesViewModel: NSObject {
     func loadCurrentArticle(indice:  Int) {
         
         self.currentArticle = self.articlesArray?[indice]
+    
     }
+    
+    //Carregar a imagem na Details
+    
+    
+    
+    
     
     var descriptionDetail: String? {
         return self.currentDetailsArticle?.descriptionValue
@@ -42,6 +50,43 @@ class ArticlesViewModel: NSObject {
         guard let loadTitle = self.currentArticle?.title else{return ""}
         return loadTitle
     }
+    
+    var imageDetail: UIImage?{
+    
+        let url = URL(string: (self.currentArticle?.urlToImage)!)
+        
+        do{
+            let dataLoad = try Data(contentsOf: url!)
+            return UIImage(data: dataLoad)
+        }catch{
+        
+            return nil
+        }
+    }
+    
+  //  ---------------------
+    var imageDetailSelected: UIImage?{
+        
+        let url = URL(string: (self.currentDetailsArticle?.urlToImage)!)
+        
+        do{
+            let dataLoad = try Data(contentsOf: url!)
+            return UIImage(data: dataLoad)
+        }catch{
+            
+            return nil
+        }
+    }
+
+    
+    
+//    var imageDetail: UIImage{
+//        
+//        let url = URL(string: (self.currentArticle?.urlToImage)!)
+//    
+//        let data = try! Data(contentsOf: url!)
+//            return UIImage(data: data)!
+//    }
     
     var urlToImage: String {
         guard let loadurlToImage = self.currentArticle?.urlToImage else{return ""}

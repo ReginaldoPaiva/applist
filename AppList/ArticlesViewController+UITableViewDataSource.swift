@@ -22,10 +22,10 @@ extension ArticlesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? CustomTableViewCell
         self.viewModel?.loadCurrentArticle(indice: indexPath.row)
         
-        cell.textLabel?.text = self.viewModel?.title
-        return cell
+        cell?.setupCell(article: self.viewModel!)
+        return cell!
     }
 }
