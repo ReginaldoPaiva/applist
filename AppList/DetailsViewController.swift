@@ -21,6 +21,7 @@ class DetailsViewController: UIViewController {
 
         self.descriptionTextView.text = viewModel?.descriptionDetail
         self.imageLarge.image = viewModel?.imageDetailSelected
+
         
         // Do any additional setup after loading the view.
     }

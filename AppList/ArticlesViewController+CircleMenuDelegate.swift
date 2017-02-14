@@ -26,15 +26,52 @@ extension ArticlesViewController: CircleMenuDelegate{
             button.setBackgroundImage(UIImage(named: "img-2"), for: .normal)
             
         case 2:
-            button.setBackgroundImage(UIImage(named: "img-3"), for: .normal)
+            button.setBackgroundImage(UIImage(named: "img-camera"), for: .normal)            
             
         default:
             print("")
         }
+    }
+    
+    
+    func circleMenu(_ circleMenu: CircleMenu, buttonWillSelected: UIButton, atIndex: Int){
+        
+            switch atIndex {
+            case 0:
+                break
+            case 1:
+                break
+            case 2:
+                self.tappedShowCamera()
+                break
+            default:
+                print("Deu ruim")
+            }
         
         
+    }
+
+    func tappedShowCamera(){
+    
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary){
+        
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+            imagePicker.allowsEditing = false
+            self.present(imagePicker, animated: true, completion: nil)
+        }
+    
     }
 
 }
 
 
+extension ArticlesViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+
+    
+
+
+
+
+}

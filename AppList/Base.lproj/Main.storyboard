@@ -95,13 +95,14 @@
                     <connections>
                         <outlet property="buttonMenu" destination="IC3-7q-sDV" id="tCd-g4-XCH"/>
                         <outlet property="tableView" destination="70Q-el-adR" id="8sf-l4-Vuu"/>
+                        <segue destination="5mn-5A-CwA" kind="show" identifier="details" id="KuX-MW-kN7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="101.59999999999999" y="98.50074962518741"/>
         </scene>
-        <!--Details-->
+        <!--Details View Controller-->
         <scene sceneID="ZAN-hc-I7A">
             <objects>
                 <viewController id="5mn-5A-CwA" customClass="DetailsViewController" customModule="AppList" customModuleProvider="target" sceneMemberID="viewController">
@@ -132,7 +133,7 @@
                             <constraint firstItem="rWL-9d-Mtb" firstAttribute="leading" secondItem="tcx-CG-OGq" secondAttribute="leadingMargin" id="fzd-l6-KjY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Details" id="qxf-xQ-SYT"/>
+                    <navigationItem key="navigationItem" id="qxf-xQ-SYT"/>
                     <connections>
                         <outlet property="descriptionTextView" destination="rWL-9d-Mtb" id="cNX-DM-Krl"/>
                         <outlet property="imageLarge" destination="g3R-am-S6Q" id="7Av-R1-wsj"/>
@@ -154,7 +155,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C65BDA99-D4FF-46EB-AC48-3679DF2F9759" translatesAutoresizingMaskIntoConstraints="NO" id="u9o-Ia-hyi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="06C2C1E0-9C6A-4953-B881-4125E13AF346" translatesAutoresizingMaskIntoConstraints="NO" id="u9o-Ia-hyi">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -251,7 +252,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="C65BDA99-D4FF-46EB-AC48-3679DF2F9759" width="256" height="256">
+        <image name="06C2C1E0-9C6A-4953-B881-4125E13AF346" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
