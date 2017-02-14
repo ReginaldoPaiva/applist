@@ -12,6 +12,8 @@ class DetailsViewController: UIViewController {
 
     var viewModel: ArticlesViewModel?
     
+    
+    
     @IBOutlet weak var imageLarge: UIImageView!
     @IBOutlet weak var descriptionTextView: UITextView!
     override func viewDidLoad() {

@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import CircleMenu
 
 
 class ArticlesViewController: UIViewController {
-
+    
+    @IBOutlet weak var buttonMenu: CircleMenu!
+    
     var dataProvider =  ArticlesDataProvider()
     var viewModel: ArticlesViewModel?
     
@@ -18,10 +21,14 @@ class ArticlesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.buttonMenu.delegate = self
         self.dataProvider.delegate = self
         LoadingView.isLoading(view: self.view, show: true)
         self.dataProvider.getAllArticles()
+        
+        self.buttonMenu.setBackgroundImage(UIImage(named: "img-menu"), for: .normal)
+        
+        
 
         // Do any additional setup after loading the view, typically from a nib.
     }
