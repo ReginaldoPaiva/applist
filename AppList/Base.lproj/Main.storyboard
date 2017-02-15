@@ -121,7 +121,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g3R-am-S6Q">
-                                <frame key="frameInset" minX="117" minY="28" width="140" height="128"/>
+                                <frame key="frameInset" minX="117" minY="72" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -155,7 +155,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="06C2C1E0-9C6A-4953-B881-4125E13AF346" translatesAutoresizingMaskIntoConstraints="NO" id="u9o-Ia-hyi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="88DCB24A-8D15-447A-8612-4B6B6BE026A8" translatesAutoresizingMaskIntoConstraints="NO" id="u9o-Ia-hyi">
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -179,7 +179,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QTp-df-s3h">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QTp-df-s3h">
                                 <color key="textColor" red="0.84226078390000003" green="0.84696575129999996" blue="0.83091932599999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -191,7 +191,6 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonLogin:" destination="YuL-h6-fuA" eventType="touchUpInside" id="6Lc-IL-qJR"/>
-                                    <segue destination="NHW-Lp-Rgh" kind="show" id="jFI-DK-75o"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logomarca.png" translatesAutoresizingMaskIntoConstraints="NO" id="dpZ-Tw-Yow">
@@ -200,10 +199,10 @@
                                     <constraint firstAttribute="height" constant="128" id="o8j-yn-Wvy"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite sua senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tA-kD-oba">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tA-kD-oba">
                                 <color key="textColor" red="0.84226078390000003" green="0.84696575129999996" blue="0.83091932599999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -226,6 +225,7 @@
                         <outlet property="buttonLogin" destination="TDX-Lx-llm" id="gkU-55-uQk"/>
                         <outlet property="emailTextField" destination="QTp-df-s3h" id="Kif-yt-XMR"/>
                         <outlet property="passwordTextField" destination="3tA-kD-oba" id="Mf8-d5-6qS"/>
+                        <segue destination="NHW-Lp-Rgh" kind="show" id="ZUS-VW-jDM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1V-hT-LzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -252,7 +252,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="06C2C1E0-9C6A-4953-B881-4125E13AF346" width="256" height="256">
+        <image name="88DCB24A-8D15-447A-8612-4B6B6BE026A8" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

@@ -69,9 +69,6 @@ extension ArticlesViewController: CircleMenuDelegate{
 
 extension ArticlesViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
-    
-
-
 
 
 }
