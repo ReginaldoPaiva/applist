@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1052385255670-3d7kr68vu4kkou7re7lm80ul4n84nlnb.apps.googleusercontent.com</string>
+	<string>628930012774-j1200dvl4clnncdqkddm3dssakfmme30.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1052385255670-3d7kr68vu4kkou7re7lm80ul4n84nlnb</string>
+	<string>com.googleusercontent.apps.628930012774-j1200dvl4clnncdqkddm3dssakfmme30</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDyYs4zoS9X-yWqywWPSVfsSzv4zviESFU</string>
+	<string>AIzaSyCY9Y-v6xj7_oB7wmFPoLZ4zEzDnKQ828U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1052385255670</string>
+	<string>628930012774</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>Impacta.AppList</string>
 	<key>PROJECT_ID</key>
-	<string>applist-73965</string>
+	<string>applistnew-4bd6e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>applist-73965.appspot.com</string>
+	<string>applistnew-4bd6e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1052385255670:ios:931bcf3de46e2468</string>
+	<string>1:628930012774:ios:931bcf3de46e2468</string>
 	<key>DATABASE_URL</key>
-	<string>https://applist-73965.firebaseio.com</string>
+	<string>https://applistnew-4bd6e.firebaseio.com</string>
 </dict>
 </plist>

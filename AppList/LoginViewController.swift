@@ -54,7 +54,7 @@ class LoginViewController: UIViewController {
         
         var check = true
         if !(self.emailTextField.text?.isEmpty)! || (self.passwordTextField.text?.isEmpty)!{
-            
+                       
             check = false
             
         }

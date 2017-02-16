@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension LoginViewController: LoginDataProviderProtocol{
 
@@ -16,6 +17,11 @@ extension LoginViewController: LoginDataProviderProtocol{
     }
     
     func fail(error: NSError){
+        
+        let alert = UIAlertController(title: "Alerto", message: "E-mail ou senha inválidos", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: { (UIAlertAction) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
         print(error)
     
     }

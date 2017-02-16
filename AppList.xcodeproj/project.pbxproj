@@ -15,11 +15,11 @@
 		023C9CBF1E37FF61006D036F /* AppListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C9CBE1E37FF61006D036F /* AppListUITests.swift */; };
 		026B3E1B1E492AD2000FD692 /* Articles+ArticlesDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026B3E1A1E492AD2000FD692 /* Articles+ArticlesDataProviderProtocol.swift */; };
 		0277EBF61E53B06A0086A72E /* img-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0277EBF51E53B06A0086A72E /* img-camera.png */; };
-		0277EBF81E53BEDB0086A72E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0277EBF71E53BEDB0086A72E /* GoogleService-Info.plist */; };
 		0277EBFA1E53C4F00086A72E /* LoginDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277EBF91E53C4F00086A72E /* LoginDataProvider.swift */; };
 		0277EC041E53D2F30086A72E /* LoginViewController+LoginDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0277EC031E53D2F30086A72E /* LoginViewController+LoginDataProviderProtocol.swift */; };
 		027D520A1E3AB27A005F6DCB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027D52081E3AB27A005F6DCB /* Alamofire.framework */; };
 		027D520B1E3AB27A005F6DCB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027D52091E3AB27A005F6DCB /* SwiftyJSON.framework */; };
+		028D4B271E56561F00C9370E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 028D4B261E56561F00C9370E /* GoogleService-Info.plist */; };
 		028FB4D71E3AAF56006550A0 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FB4D51E3AAF56006550A0 /* Articles.swift */; };
 		028FB4D81E3AAF56006550A0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FB4D61E3AAF56006550A0 /* Account.swift */; };
 		02A907451E413A400073917C /* ArticlesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A907441E413A400073917C /* ArticlesDataProvider.swift */; };
@@ -83,11 +83,11 @@
 		023C9CC01E37FF61006D036F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		026B3E1A1E492AD2000FD692 /* Articles+ArticlesDataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Articles+ArticlesDataProviderProtocol.swift"; sourceTree = "<group>"; };
 		0277EBF51E53B06A0086A72E /* img-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-camera.png"; sourceTree = "<group>"; };
-		0277EBF71E53BEDB0086A72E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0277EBF91E53C4F00086A72E /* LoginDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataProvider.swift; sourceTree = "<group>"; };
 		0277EC031E53D2F30086A72E /* LoginViewController+LoginDataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginViewController+LoginDataProviderProtocol.swift"; sourceTree = "<group>"; };
 		027D52081E3AB27A005F6DCB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/AppList-bsmvkuncvhcxwmaukkemjgxtuxkf/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		027D52091E3AB27A005F6DCB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/AppList-bsmvkuncvhcxwmaukkemjgxtuxkf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		028D4B261E56561F00C9370E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		028FB4D51E3AAF56006550A0 /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		028FB4D61E3AAF56006550A0 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		02A907441E413A400073917C /* ArticlesDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticlesDataProvider.swift; path = DataProvider/ArticlesDataProvider.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				023C9CA71E37FF61006D036F /* LaunchScreen.storyboard */,
 				02C9C80B1E52853C00BC1E77 /* Main.storyboard */,
 				023C9CAA1E37FF61006D036F /* Info.plist */,
-				0277EBF71E53BEDB0086A72E /* GoogleService-Info.plist */,
+				028D4B261E56561F00C9370E /* GoogleService-Info.plist */,
 			);
 			path = AppList;
 			sourceTree = "<group>";
@@ -459,7 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0277EBF81E53BEDB0086A72E /* GoogleService-Info.plist in Resources */,
+				028D4B271E56561F00C9370E /* GoogleService-Info.plist in Resources */,
 				02C9C7FE1E526A7300BC1E77 /* img-3.png in Resources */,
 				023C9CA91E37FF61006D036F /* LaunchScreen.storyboard in Resources */,
 				02C9C80A1E527EDE00BC1E77 /* logomarca.png in Resources */,
